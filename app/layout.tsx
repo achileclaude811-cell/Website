@@ -1,14 +1,10 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Daymark — Make today count',
-  description: 'A focused, interactive daily task list.',
+  title: 'AZOMBI CACHAREL PLANIFICATION',
+  description: 'Votre assistant personnel de planification, de tâches et de projets.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en" className="bg-[#f7f8f5]">
-      <body style={{ margin: 0 }}>{children}</body>
-    </html>
-  )
+  return <html lang="fr" className="bg-[#0e0e11]"><body style={{ margin: 0 }}>{children}</body></html>
 }
